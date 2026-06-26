@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 🌀 Premium Smooth Loading Spinner Animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner {
+  border: 3px solid rgba(37, 99, 235, 0.1);
+  border-top: 3px solid #2563eb;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  animation: spin 0.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* 🚀 Premium Table Row Hover Dynamics */
+.premium-row {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.premium-row:hover {
+  background-color: rgba(99, 102, 241, 0.04) !important;
+  transform: scale(1.002);
+  box-shadow: inset 4px 0 0 #6366f1;
+}
+
+/* ✨ Inputs Focus Effects */
+input:focus {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15) !important;
+}
